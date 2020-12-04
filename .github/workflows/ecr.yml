@@ -2,7 +2,7 @@ name: ECR
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   cdk_job:
