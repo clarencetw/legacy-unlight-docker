@@ -1,6 +1,8 @@
 name: ECR
 on:
-  workflow_dispatch: {}
+  push:
+    branches:
+      - main
 
 jobs:
   cdk_job:
